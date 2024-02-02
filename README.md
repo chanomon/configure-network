@@ -1,4 +1,4 @@
-#Configure your network in ubuntu
+**Configure your network in ubuntu**
 
 If you dont have wlan or ethernet connection in your ubuntu even when you have your ethernet cable connected, you may want to follow these steps:
 
@@ -9,15 +9,15 @@ network:
   ethernets:
     eth0:
       dhcp4: true
-  
-  version: 2
-wifis:
-        wlan0:
-            dhcp4: true
-            optional: true
-            access-points:
-                "SSID_name":
-                    password: "WiFi_password"
+
+   version: 2
+   wifis:
+      wlan0:
+         dhcp4: true
+         optional: true
+         access-points:
+            "SSID_name":
+            password: "WiFi_password"
 ```
 save the file and then in terminal run:
 ```
