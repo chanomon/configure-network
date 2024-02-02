@@ -17,8 +17,9 @@ network:
          optional: true
          access-points:
             "SSID_name":
-            password: "WiFi_password"
+               password: "WiFi_password"
 ```
+cuote marks ARE included in the file
 save the file and then in terminal run:
 ```
 sudo netplan generate
